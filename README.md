@@ -6,20 +6,15 @@
 
 ## Description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae pulvinar
-mauris. Praesent sollicitudin rutrum mauris sed congue. Donec vel orci elit.
-Phasellus luctus sodales elementum. Donec lacinia semper lorem, volutpat
-molestie arcu bibendum mollis. Nulla nec massa vitae sapien varius vulputate
-vel vitae ex. Curabitur convallis iaculis elit at faucibus. Sed eget facilisis
-orci, ut consequat neque.
+This exemplar will explain and demonstrate the steps required to go from image-based data to a finished Convolutional Neural Network (CNN) pipeline, which can be used to extract relevant information from the images. While demonstrating how to solve this machine learning problem, I will also explain how to prototype code in Jupyter notebooks. I will start by explaining how to analyse the statistics of the data to create appropriate training, validation and testing sets; here I will emphasize the importance of uniform parameter spaces. The exemplar will then go through the process of setting up the architecture of the network and how to train it. Once the network is trained I will discuss what possible next steps are, and which is the most appropriate. Finally, I will go through how to convert the code prototyped in Jupyter notebooks into a useable package
 
 <!-- What should the students going through your exemplar learn -->
 
 ## Learning Outcomes
 
-- Skill 1
-- Skill 2
-- Skill 3
+- Use a Jupyter Lab notebook to prototype code
+- Use tensorflow to create a CNN to infer parameters from simulated images
+- Convert that prototyped code into a runable script that can then be scaled up to be run on something like the HPC
 
 <!-- How long should they spend reading and practising using your Code.
 Provide your best estimate -->
@@ -95,8 +90,9 @@ in a tree node.
 
 ```log
 .
-├── examples
-│   ├── ex1
+├── docs
+├── notebooks
+│   ├── ReCoDE.ipynb
 │   └── ex2
 ├── src
 |   ├── file1.py
@@ -104,9 +100,9 @@ in a tree node.
 |   ├── ...
 │   └── data
 ├── app
-├── docs
 ├── main
-└── test
+├── test
+└── requirements.txt
 ```
 
 <!-- Change this to your License. Make sure you have added the file on GitHub -->
