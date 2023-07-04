@@ -1,6 +1,6 @@
 <!-- Your Project title, make it sound catchy! -->
 
-# Project title
+# Using Convolutional Neural Networks to extract information from the Cosmic Dawn
 
 <!-- Provide a short description to your project -->
 
@@ -37,6 +37,12 @@ If there is an existing exemplar in the ReCoDE repositories link to that.
 
 ### Academic
 
+- Familiarity with Python 3
+- Have used Jupyter Lab before
+- Very little command line knowledge
+
+
+
 <!-- List the system requirements and how to obtain them, that can be as simple
 as adding a hyperlink to as detailed as writting step-by-step instructions.
 How detailed the instructions should be will vary on a case-by-case basis.
@@ -53,6 +59,10 @@ Here are some examples:
 -->
 
 ### System
+
+- 4GB of disk space for datasets
+- Python 3.11 or newer
+- Access to the HPC (optional)
 
 <!-- Instructions on how the student should start going through the exemplar.
 
