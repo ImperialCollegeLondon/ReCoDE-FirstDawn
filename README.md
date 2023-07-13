@@ -21,8 +21,8 @@ Provide your best estimate -->
 
 | Task       | Time    |
 | ---------- | ------- |
-| Reading    | 3 hours |
-| Practising | 3 hours |
+| Introduction to CNNs    | 1 hours |
+| FirstDawn | 3 hours |
 
 ## Requirements
 
@@ -84,6 +84,45 @@ Solutions to the above can be found in `solutions`.
 
 ## Getting Started
 
+To get started, first clone this repo, then change directories into it:
+```
+  git clone https://github.com/kimeels/ReCode_FirstDawn.git
+  cd ReCode_FirstDawn
+
+```
+
+If python virtualenv  and Jupyter Lab isn't already installed on your system, install it using:
+
+```
+  python3 -m pip install virtualenv
+  python3 -m pip install jupyterlab
+```
+
+Then create a virtual environment for this exemplar:
+
+```
+python3 -m venv venv_recode_firstdawn
+```
+
+Source into your new virtual environment using:
+
+```
+  source venv_recode_firstdawn/bin/activate
+```
+
+Run this line to install all the necessary packages:
+
+```
+  pip install -r requirements.txt
+
+```
+Finally, run these two lines to setup your virtual env with jupyter lab.
+```
+  pip install ipykernel
+  python -m ipykernel install --user --name=venv_recode_firstdawn
+```
+
+
 <!-- An overview of the files and folder in the exemplar.
 Not all files and directories need to be listed, just the important
 sections of your project, like the learning material, the code, the tests, etc.
@@ -102,16 +141,11 @@ in a tree node.
 .
 ├── docs
 ├── notebooks
-│   ├── ReCoDE.ipynb
-│   └── ex2
-├── src
-|   ├── file1.py
-|   ├── file2.cpp
-|   ├── ...
-│   └── data
-├── app
-├── main
-├── test
+    ├── figures
+    ├── Converting to a python script.ipynb
+    ├── FirstDawn.ipynb
+    └── Introduction to CNNs.ipynb
+│   
 └── requirements.txt
 ```
 
