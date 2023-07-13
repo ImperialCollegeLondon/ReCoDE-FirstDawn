@@ -88,7 +88,6 @@ To get started, first clone this repo, then change directories into it:
 ```
   git clone https://github.com/kimeels/ReCode_FirstDawn.git
   cd ReCode_FirstDawn
-
 ```
 
 If python virtualenv  and Jupyter Lab isn't already installed on your system, install it using:
@@ -114,7 +113,6 @@ Run this line to install all the necessary packages:
 
 ```
   pip install -r requirements.txt
-
 ```
 Finally, run these two lines to setup your virtual env with jupyter lab.
 ```
