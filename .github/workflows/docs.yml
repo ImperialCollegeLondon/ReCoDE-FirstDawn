@@ -9,10 +9,10 @@ jobs:
     name: Deploy Mkdocs to gh-pages branch
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
-          python-version: 3.x
+          python-version: '3.13'
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Copy notebooks into docs
