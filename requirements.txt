@@ -4,4 +4,4 @@ python-markdown-math==0.9
 mkdocs-include-markdown-plugin==7.3.2 
 mkdocs-jupyter==0.27.0
 tensorflow==2.21.0
-matplotlib==3.7.1
+matplotlib==3.9.4
